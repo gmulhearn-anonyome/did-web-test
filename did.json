@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://w3id.org/did/v1"
+  ],
+  "id": "did:web:example.com",
+  "verificationMethod": [
+    {
+      "id": "did:web:example.com#z6MkpRSYe1WHRSmqsTheBa6rdTjyG5hJwttTcEhvgg1Kapbv",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:example.com",
+      "publicKeyBase58": "AyBW3mFr5uHNkxrwW191nNBySWRTY1e6vDnzrQ3JfbpY"
+    },
+    {
+      "id": "did:web:example.com#zDnaefEzJWXWBSGXXjqYc61JWWPu7saR2EL9d1qyvAy8eKvrx",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:example.com",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "3A9V8ynqRcVjADqlfpZ9X8mwbew0TuQldH_QOpkadsU",
+        "y": "af2VHyO4MziEhUeBfoeZVBM-WTyZl-DiMC6_d-sS4MI"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:example.com#z6MkpRSYe1WHRSmqsTheBa6rdTjyG5hJwttTcEhvgg1Kapbv",
+    "did:web:example.com#zDnaefEzJWXWBSGXXjqYc61JWWPu7saR2EL9d1qyvAy8eKvrx"
+  ],
+  "assertionMethod": [
+    "did:web:example.com#z6MkpRSYe1WHRSmqsTheBa6rdTjyG5hJwttTcEhvgg1Kapbv",
+    "did:web:example.com#zDnaefEzJWXWBSGXXjqYc61JWWPu7saR2EL9d1qyvAy8eKvrx"
+  ]
+}
